@@ -1,0 +1,51 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 350"><rect width="1120" height="350" fill="white"/><style>.edge{fill:none;stroke:#18345b;stroke-width:4;stroke-linecap:round}.node{fill:white;stroke:#0750a1;stroke-width:5}.weight{font:26px Arial;fill:#111}.label{font:bold 24px Arial;fill:#18345b}</style>
+<g transform="translate(0 0)">
+<path class="edge" d="M130 40 Q40 25 40 260"/><text class="weight" x="48" y="110">5</text>
+<path class="edge" d="M130 40 Q220 25 220 260"/><text class="weight" x="207" y="110">5</text>
+<path class="edge" d="M130 40 L130 115"/><text class="weight" x="143" y="91">2</text>
+<path class="edge" d="M130 115 L130 190"/><text class="weight" x="143" y="176">6</text>
+<path class="edge" d="M130 115 L40 260"/><text class="weight" x="70" y="181">4</text>
+<path class="edge" d="M130 115 L220 260"/><text class="weight" x="174" y="181">7</text>
+<path class="edge" d="M130 190 L40 260"/><text class="weight" x="87" y="243">3</text>
+<path class="edge" d="M130 190 L220 260"/><text class="weight" x="159" y="243">3</text>
+<path class="edge" d="M40 260 L220 260"/><text class="weight" x="121" y="255">1</text>
+<circle class="node" cx="130" cy="40" r="9"/>
+<circle class="node" cx="130" cy="115" r="9"/>
+<circle class="node" cx="130" cy="190" r="9"/>
+<circle class="node" cx="40" cy="260" r="9"/>
+<circle class="node" cx="220" cy="260" r="9"/>
+<text class="label" x="130" y="320" text-anchor="middle">&#21407;&#22270;</text></g>
+<g transform="translate(280 0)">
+<path class="edge" d="M130 40 Q40 25 40 260"/><text class="weight" x="48" y="110">5</text>
+<path class="edge" d="M130 40 Q220 25 220 260"/><text class="weight" x="207" y="110">5</text>
+<path class="edge" d="M130 40 L130 115"/><text class="weight" x="143" y="91">2</text>
+<path class="edge" d="M130 115 L130 190"/><text class="weight" x="143" y="176">6</text>
+<circle class="node" cx="130" cy="40" r="9"/>
+<circle class="node" cx="130" cy="115" r="9"/>
+<circle class="node" cx="130" cy="190" r="9"/>
+<circle class="node" cx="40" cy="260" r="9"/>
+<circle class="node" cx="220" cy="260" r="9"/>
+<text class="label" x="130" y="320" text-anchor="middle">A</text></g>
+<g transform="translate(560 0)">
+<path class="edge" d="M130 40 L130 115"/><text class="weight" x="143" y="91">2</text>
+<path class="edge" d="M130 115 L40 260"/><text class="weight" x="70" y="181">4</text>
+<path class="edge" d="M130 190 L220 260"/><text class="weight" x="159" y="243">3</text>
+<path class="edge" d="M40 260 L220 260"/><text class="weight" x="121" y="255">1</text>
+<circle class="node" cx="130" cy="40" r="9"/>
+<circle class="node" cx="130" cy="115" r="9"/>
+<circle class="node" cx="130" cy="190" r="9"/>
+<circle class="node" cx="40" cy="260" r="9"/>
+<circle class="node" cx="220" cy="260" r="9"/>
+<text class="label" x="130" y="320" text-anchor="middle">B</text></g>
+<g transform="translate(840 0)">
+<path class="edge" d="M130 40 L130 115"/><text class="weight" x="143" y="91">2</text>
+<path class="edge" d="M130 115 L40 260"/><text class="weight" x="70" y="181">4</text>
+<path class="edge" d="M130 190 L40 260"/><text class="weight" x="87" y="243">3</text>
+<path class="edge" d="M40 260 L220 260"/><text class="weight" x="121" y="255">1</text>
+<circle class="node" cx="130" cy="40" r="9"/>
+<circle class="node" cx="130" cy="115" r="9"/>
+<circle class="node" cx="130" cy="190" r="9"/>
+<circle class="node" cx="40" cy="260" r="9"/>
+<circle class="node" cx="220" cy="260" r="9"/>
+<text class="label" x="130" y="320" text-anchor="middle">C</text></g>
+</svg>

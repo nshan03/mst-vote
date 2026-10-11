@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>最小生成树课堂投票</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <div class="badge">课堂实时投票</div>
+      <h1>下列三棵树哪些是最小生成树？</h1>
+      <p class="subtitle">根据原图判断，选择所有正确的选项（可多选）</p>
+    </section>
+
+    <section class="question-card">
+      <img src="assets/mst-question.svg" alt="左侧为带权原图，右侧依次为候选树 A、B、C。A 的边权为 5、5、2、6；B 的边权为 2、4、1、3；C 的边权为 2、4、1、3。" />
+    </section>
+
+    <section class="vote-card">
+      <div class="options" id="options">
+        <button type="button" class="option" data-option="A" aria-pressed="false"><span>A</span></button>
+        <button type="button" class="option" data-option="B" aria-pressed="false"><span>B</span></button>
+        <button type="button" class="option" data-option="C" aria-pressed="false"><span>C</span></button>
+      </div>
+      <button type="button" class="submit-vote" id="submitVote" disabled>提交投票</button>
+      <div class="message" id="message" role="status" aria-live="polite">可多选，选好后点击提交；每台设备默认只能提交一次</div>
+
+      <div class="results hidden" id="results">
+        <div class="results-head">
+          <h2>实时结果</h2>
+          <span id="totalVotes">0 人参与</span>
+        </div>
+        <p class="results-note">比例为选择该项的人数占参与人数的比例，多选题的比例之和可能超过 100%。</p>
+
+        <div class="result-row">
+          <div class="result-label">A</div>
+          <div class="bar-track"><div class="bar-fill" id="bar-A"></div></div>
+          <div class="result-value" id="value-A">0%</div>
+        </div>
+
+        <div class="result-row">
+          <div class="result-label">B</div>
+          <div class="bar-track"><div class="bar-fill" id="bar-B"></div></div>
+          <div class="result-value" id="value-B">0%</div>
+        </div>
+
+        <div class="result-row">
+          <div class="result-label">C</div>
+          <div class="bar-track"><div class="bar-fill" id="bar-C"></div></div>
+          <div class="result-value" id="value-C">0%</div>
+        </div>
+
+      </div>
+    </section>
+
+    <footer>
+      <span id="modeText">正在连接投票服务…</span>
+    </footer>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
